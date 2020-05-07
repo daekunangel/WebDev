@@ -1,0 +1,63 @@
+h1
+{
+    color: brown;
+    background-color:gold;
+    background width: 100px; height: 100px;
+    text-align: center;
+    
+
+}
+body
+{
+background-image: url(https://img2.goodfon.com/wallpaper/nbig/4/60/naruto-shippuden-mitsuki.jpg);
+border: blanchedalmond;
+}
+p
+{
+    color: white;
+    text-align: center;
+}
+canvas
+{
+  background-color: gold;
+  margin-left: 400px;
+  margin-top: 100px;
+  padding: 10px;
+
+
+  } 
+
+  .splash{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url();
+      color: azure;
+      text-align: center;
+      line-height: 90vh;
+  }
+  .splash.display-none{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url();
+    color: azure;
+    text-align: center;
+    line-height: 90vh;
+    transition: all 0.5s;
+} 
+
+  @keyframes fadein{
+      to{
+          opacity: 1;
+      }
+  }
+
+  .fade-in{
+      opacity: 0;
+      animation: fadein is ease-in forwards;
+  }
